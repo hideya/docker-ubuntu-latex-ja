@@ -1,12 +1,11 @@
-# tex-japanese-docker
+# docker-ubuntu-latex-ja
 
 ## 手順
 
-前提:カレントディレクトリは，本READMEが置いてあるパス
-
-1. `cd src`
-2. `git clone <原稿のリポジトリ>`
-3. `cd ..`
-4. `./initFonts.sh`
-5. `docker build . -t ubuntu-latex-ja`
-6. `docker run --rm -v $PWD/src:/data ubuntu-latex-ja /bin/sh -c "cd rvbook-ja-test && make pdf"`
+1. `mkdir data`
+2. `cd data`
+3. `git clone <原稿のリポジトリ>`
+4. `cd ..`
+5. `./initFonts.sh`
+6. `docker build . -t ubuntu-latex-ja`
+7. `docker run --rm -ti -v $PWD/data:/data ubuntu-latex-ja`
