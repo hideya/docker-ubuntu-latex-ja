@@ -1,4 +1,4 @@
-src/
+workdir/
 texmf-local/fonts/opentype/
-.vscode/
+
 .DS_Store
