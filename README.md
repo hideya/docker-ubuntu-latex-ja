@@ -2,7 +2,7 @@
 
 ### LaTeXコンパイル用のDockerイメージの構築とその実行手順
 
-1. HDDの残容量が十分（10GB以上）あることを確認する（e.g.`df -h`）
+1. HDDの残容量が十分（10GB以上推奨）あることを確認する（e.g.`df -h`）
 1. リポジトリをクローンする: `git clone git@github.com:hideya/docker-ubuntu-latex-ja.git`
 1. クローンのディレクトリに入る: `cd docker-ubuntu-latex-ja`
 1. Dockerのイメージを構築する: `docker build . -t ubuntu-latex-ja`<br/>

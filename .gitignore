@@ -1,4 +1,4 @@
-workdir/
-texmf-local/fonts/opentype/
+/workdir/
+/texmf-local/fonts/opentype/
 
 .DS_Store
