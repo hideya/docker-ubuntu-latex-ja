@@ -30,7 +30,7 @@ RUN set -x && \
     cd - && \
     \
     mktexlsr && \
-    kanji-config-updmap-sys auto
+    kanji-config-updmap-sys ipa
 
 # MacOS にインストールされているヒラギノフォントを使う場合は、`docker build` の前に、
 # 以下の２行をコメントアウトし、`./initMacOSHiraginoFonts.sh` を実行しておく。
